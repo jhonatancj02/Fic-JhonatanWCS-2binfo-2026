@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 3rem;
+
+  background-color: firebrick;
+  color: white;
+
+  z-index: 1000;
+}
+
+
+header a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+header a:hover {
+  text-decoration: underline;
+  font-size: 1.1rem; /* evita layout shift */
+}
+
+
+#p1{
+
+padding: 2rem;
+background-color: rgb(220, 86, 86);
+border-radius: 15px;
+color: white;
+margin-top: 15rem;
+}
+
+#p2{
+
+padding: 2rem;
+background-color: rgb(255, 52, 52);
+border-radius: 15px;
+color: white;
+margin-top: 4rem;
+
+}
+
+#p3{
+
+padding: 2rem;
+background-color: rgb(255, 147, 147);
+border-radius: 15px;
+color: white;
+margin-top: 4rem;
+
+
+}
+
+
+footer{
+
+background-color: rgb(66, 76, 85);
+color: white;
+font-size: 1.3rem;
+padding-left: 1rem;
+padding-top: 1rem;
+text-align: center;
+padding-bottom: 3rem;
+border-radius: 15px;
+}
+
+footer p{
+
+padding-bottom: 1rem;
+
+}
+
+footer a{
+
+text-decoration: none;
+color: red;
+transition: 0.5s;
+text-align: center;
+padding-top: 3rem;
+}
+
+footer a:hover{
+
+text-decoration: underline;
+color: red;
+font-size: 1.5rem;
+
+}
